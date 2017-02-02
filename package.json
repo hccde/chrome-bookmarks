@@ -1,0 +1,28 @@
+{
+  "name": "chrome-bookmarks",
+  "version": "1.0.0",
+  "description": "some useful javascript codes in chrome bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hccde/chrome-bookmarks.git"
+  },
+  "keywords": [
+    "chrome-bookmarks"
+  ],
+  "author": "admos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hccde/chrome-bookmarks/issues"
+  },
+  "homepage": "https://github.com/hccde/chrome-bookmarks#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "mocha": "^3.2.0",
+    "webpack": "^2.2.1"
+  }
+}
