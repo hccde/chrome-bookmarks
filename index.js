@@ -1,3 +1,1 @@
-default export ={
-	
-}
+console.log(1)
