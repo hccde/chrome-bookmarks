@@ -7,5 +7,7 @@ gulp.task('default',function(){
 })
 
 gulp.task('webpack',function(){
-	webpack(webpackConfig);
+	gulp.src('index.js')
+    .pipe(webpack(webpackConfig))
+    .pipe(gulp.dest('dist/'));
 })

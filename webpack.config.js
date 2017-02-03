@@ -7,12 +7,9 @@ module.exports = {
 	},
 	module: {
 		loaders: [{
-			test: /\.sass$/,
-			loader: "json"
-		}, {
 			test: /\.js$/,
 			exclude: /node_modules/,
-			loader: 'babel',
+			loader: 'babel-loader',
 			query: {
 				presets: ['es2015']
 			}
