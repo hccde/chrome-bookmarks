@@ -1,4 +1,4 @@
 export default {
-	url:'http://www.bing.com/translator/api/Dictionary/Lookup',
+	url:'https://fanyi-api.baidu.com/api/trans/vip/translate',
 	method:'get'
 }

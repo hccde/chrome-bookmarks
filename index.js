@@ -1,8 +1,20 @@
 import { ajax } from './lib/net'
-console.log(1)
-query_str = {
-		from: 'en',
-		to: 'zh - CHS',
-		text: 'equator'
+import { MD5 } from './lib/md5'
+
+let query_str = {
+	q: 'test',
+	appid: 'your appid',
+	salt: 'random number',
+	from: 'en',
+	to: 'zh',
+	sign: 'your sign',
+	callback:'callback'
 }
+//compute
+query_str.sign = ''
+
+function callback(res){
+	//response callback
+}
+
 ajax(query_str)
